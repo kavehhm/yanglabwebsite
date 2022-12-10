@@ -25,6 +25,7 @@ export const slides = [
 function App() {
   const descsec = useRef(null);
   const researchsec = useRef(null);
+  const contactsec = useRef(null);
 
   return (
     <div>
@@ -33,11 +34,11 @@ function App() {
           <Redirect to="/home" />
         </Route>
         <Route exact path="/home">
-          <Navbar researchsec={researchsec} descsec={descsec} />
+          <Navbar contactsec={contactsec} researchsec={researchsec} descsec={descsec} />
           <Top />
           <Desc ref={descsec} />
           <ResearchForm ref={researchsec} />
-          <Contact />
+          <Contact ref={contactsec} />
         </Route>
         <Route exact path="/members">
           <Navbar2 />

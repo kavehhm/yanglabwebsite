@@ -30,6 +30,7 @@
 
 .socialmedias {
     display: flex;
+    flex-direction: column;
 }
 
 .profiles {
@@ -80,4 +81,7 @@
         width: 50%;
     }
     
+    .socialmedias {
+        flex-direction: row;
+    }
   }

@@ -23,7 +23,7 @@ const Desc = forwardRef((props, ref) => {
         <TwitterTimelineEmbed
           sourceType="profile"
           screenName="TheYangLab1"
-          options={{ height: 400, width: 400 }}
+          options={{ height: 400, width: 350 }}
         />
       </div>
     </div>

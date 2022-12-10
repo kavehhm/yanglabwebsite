@@ -2,7 +2,7 @@
     padding: 3rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
 
 }
@@ -11,14 +11,15 @@
     font-weight: 600;
     font-size: 2rem;
     margin-right: 2rem;
+    color: #364F8B;
+
 }
 
 .desc-cont select {
-    padding: 0.5rem;
-    font-size: 2rem;
-    border: 2px solid #364F8B;
+    padding: 0.25rem;
+    font-size: 1.75rem;
+    border: 2px solid black;
     border-radius: 1rem;
-    color: #364F8B;
 }
 
 

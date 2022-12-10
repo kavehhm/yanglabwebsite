@@ -42,6 +42,9 @@ const Navbar = (props) => {
   const handleResearchClick = () => {
     props.researchsec.current.scrollIntoView({ behavior: "smooth" });
   };
+  const handleContactClick = () => {
+    props.contactsec.current.scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
     <div>
@@ -77,7 +80,7 @@ const Navbar = (props) => {
                 </Link>
               </li>
               <li className="nav__item">
-                <button href="/">Contact</button>
+                <button onClick={handleContactClick} href="/">Contact</button>
               </li>
             </ul>
           </nav>
