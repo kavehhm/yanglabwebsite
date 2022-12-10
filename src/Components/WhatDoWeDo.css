@@ -1,0 +1,49 @@
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3rem 3rem;
+  color: white;
+  background-color: #364f8b;
+}
+
+.cont p {
+  line-height: 2rem;
+  font-size: 1.25rem;
+  margin-top: 0;
+}
+
+.cont h1 {
+  margin-bottom: 0;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+  .cont {
+    flex-direction: row;
+    padding: 3rem 5rem;
+
+
+  }
+
+ 
+
+
+}
+
+
+@media screen and (min-width: 1600px) {
+  .cont {
+    padding: 3rem 18rem;
+    flex-direction: row;
+
+  }
+
+  .info-cont {
+    margin-right: 15rem;
+  }
+
+
+}

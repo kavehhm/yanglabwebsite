@@ -1,0 +1,103 @@
+.sliderStyles {
+    height: 13rem;
+    width: 26rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+
+
+  }
+
+  .slideStyles {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+  .leftArrowStyles {
+    position: absolute;
+    top: 50%;
+    transform: translate(0 -50%);
+    left: 32px;
+    font-size: 30px;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+    border: 3px solid white;
+    padding: 0 0.5rem;
+    border-radius: 50%;
+    transition: color 0.15s, border 0.15s;
+
+  }
+
+
+  .leftArrowStyles:hover, .rightArrowStyles:hover {
+    color: #567dd9;
+    border: 3px solid #567dd9;
+  }
+
+  .leftArrowStyles:active, .rightArrowStyles:active {
+    color: #265cd8;
+    border: 3px solid #265cd8;
+  }
+
+
+  .rightArrowStyles {
+    position: absolute;
+    top: 50%;
+    transform: translate(0 -50%);
+    right: 32px;
+    font-size: 30px;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+    border: 3px solid white;
+    padding: 0 0.5rem;
+    border-radius: 50%;
+    transition: color 0.15s, border 0.15s;
+  }
+
+
+  .slideshowSlider {
+    white-space: nowrap;
+    height: 100%;
+    transition: ease 1000ms;
+  }
+
+
+
+  @media screen and (min-width: 768px) {
+
+    .sliderStyles {
+        width: 30rem;
+        height: 15rem;
+    }
+  
+  
+  }
+  @media screen and (min-width: 1000px) {
+
+    .sliderStyles {
+        width: 40rem;
+        height: 20rem;
+    }
+  
+  
+  }
+
+  
+
+
+  @media screen and (min-width: 1700px) {
+
+    .sliderStyles {
+        width: 60rem;
+        height: 30rem;
+    }
+  
+  
+  }

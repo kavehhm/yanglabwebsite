@@ -1,0 +1,54 @@
+.member img {
+  width: 300px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  
+}
+
+.member-words {
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.member-name {
+  color: #364f8b;
+  font-size: 1.7rem;
+}
+
+.member-alum h1 {
+  text-align: center;
+}
+
+.member-alum h2 {
+  margin: 0;
+  text-align: center;
+  border-bottom: 2px solid black;
+  
+}
+
+@media screen and (min-width: 1100px) {
+  .member img {
+    margin: 2rem;
+  }
+
+  .member {
+    flex-direction: row;
+  }
+
+  .member-words {
+    width: 50%;
+  }
+
+  .member-alum h2 {
+    margin: 3rem 10rem;
+    text-align: start;
+  }
+}

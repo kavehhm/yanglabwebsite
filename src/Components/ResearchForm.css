@@ -1,0 +1,33 @@
+.desc-cont {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.desc-cont label {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+.desc-cont select {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: 2px solid #364F8B;
+    border-radius: 1rem;
+    color: #364F8B;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .desc-cont {
+        flex-direction: row;
+    }
+  
+  
+  }
+  
