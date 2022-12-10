@@ -1,6 +1,6 @@
 .sscd {
   display: flex;
-  padding: 3rem 5rem;
+  padding: 3rem 2rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -60,6 +60,24 @@
 }
 
 
+
+@media screen and (min-width: 768px) {
+  
+  .sscdimages {
+    flex-direction: row;
+
+  }
+
+  .box {
+    width: 500px;
+    
+  }
+
+  .sscd {
+    padding: 3rem 6rem;
+  }
+}
+
 @media screen and (min-width: 1050px) {
   
   .sscdimages {
@@ -71,6 +89,11 @@
     width: 500px;
     
   }
+
+  .sscd {
+    padding: 3rem 10rem;
+  }
+}
 
 
 @media screen and (min-width: 1700px) {
@@ -96,7 +119,7 @@
 
 
 
-}
+
 
 
 
