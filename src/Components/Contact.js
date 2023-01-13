@@ -9,11 +9,10 @@ const Contact = forwardRef((props,ref) => {
       <div className="info-contact">
         <div className="contact-req">
           <p>
-            If you're interested in joining The Yang Lab, please contact our
-            lab manager Yelena Malkhasyan at{" "}
+            If you're interested in joining The Yang Lab, please contact Dr. Isaac Yang at{" "}
             <a
               className="email-click"
-              href="mailto:YMalkhasyan@mednet.ucla.edu?subject=Subject&body=Message%20goes%20here"
+              href="mailto:iyang@mednet.ucla.edu?subject=Subject&body=Message%20goes%20here"
             >
               YMalkhasyan@mednet.ucla.edu
             </a>
